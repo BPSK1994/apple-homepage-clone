@@ -24,27 +24,17 @@ a {
 
 .main-nav-content {
     border: 2px solid red;
-    height: 100%; /* height is 100% of the parent container */
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
     max-width: 980px;
     margin: 0 auto;
-}
-
-.main-nav-content img {
-    width: 16px;
-    border: 1px solid orange;
+    height: 100%;                  
 }
 
 .main-nav-content .main-menu {
     border: 1px solid yellow;
     display: flex;
-    flex-direction: row;
     align-items: center;
-    flex: 1;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    height: 100%;                 
 }
 
 .main-nav-content .main-menu li a {
@@ -53,8 +43,12 @@ a {
     padding: 0 8px;
 }
 
-.main-nav-content .right-menu img{
-    padding: 0 8px;
-    
+.main-nav-content img {
+    /*width: 16px; */
 }
+
+
+
+
+
 
