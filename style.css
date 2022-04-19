@@ -41,6 +41,7 @@ a {
 
 .main-nav-content .main-menu li {
     padding: 0px 8px;
+    opacity: 0.7;
 }
 
 
@@ -50,6 +51,7 @@ a {
 }
 
 .main-menu #nav-link-apple-logo {
+    
     position: absolute;
     top: 3px;
     left: 0px;
@@ -57,13 +59,61 @@ a {
 
 .main-menu #nav-link-bag-logo {
     position: absolute;
-    top: 4px;
+    top: 5px;
 }
 
 .main-menu #nav-link-search-logo  {
     position: absolute;
     top: 5px;
 }
+
+.main-nav-content .main-menu li:hover {
+    opacity: 1;
+}
+
+
+/* Section 1 */
+
+.homepage-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.homepage-section #iphone-13-pro {
+    background-image: url("images/iphone-13-pro.jpg");
+    height: 624px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center; 
+}
+
+#iphone-13-pro-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#iphone-13-pro-content h2 {
+    font-size: 56px;
+    color: #1d1d1f;
+    font-weight: 600;
+    line-height: 1.07143;
+    margin: 0 auto;
+}
+
+#iphone-13-pro-content h3 {
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 1.10722;
+    margin-top: 6px;
+}
+
+#iphone-13-pro-content .links {
+    margin-top: 14px;
+}
+
+
 
 
 
