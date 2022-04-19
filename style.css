@@ -80,6 +80,7 @@ a {
     grid-template-rows: 1fr 1fr 1fr;
 }
 
+/* Section 1 (iphone-13-pro) */
 .homepage-section #iphone-13-pro {
     background-image: url("images/iphone-13-pro.jpg");
     height: 624px;
@@ -92,6 +93,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 48px;
 }
 
 #iphone-13-pro-content h2 {
@@ -100,12 +102,14 @@ a {
     font-weight: 600;
     line-height: 1.07143;
     margin: 0 auto;
+    
 }
 
 #iphone-13-pro-content h3 {
     font-size: 28px;
     font-weight: 400;
     line-height: 1.10722;
+    color: #1d1d1f;
     margin-top: 6px;
 }
 
@@ -113,7 +117,25 @@ a {
     margin-top: 14px;
 }
 
+#iphone-13-pro-content .links a {
+    font-size: 21px;
+    font-weight: 400;
+    color: #06c;
+}
 
+#iphone-13-pro-content .links a:nth-of-type(2) {
+    margin-left: 35px;
+}
+
+#iphone-13-pro-content .links i {
+    font-size: 14px;
+    margin-left: 6px;
+}
+
+#iphone-13-pro-content .links a:hover .link-text {
+    text-decoration: underline;
+    color: #06c;
+}
 
 
 
