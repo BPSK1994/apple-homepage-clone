@@ -14,20 +14,21 @@ a {
     display: inline-block;
 }
 
-
 /* Navigation */
 
 .main-nav {
-    background: #000;
+    background: rgba(0, 0, 0, 0.92);
     height: 48px;
     overflow: hidden;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
 }
 
 .main-nav-content {
     max-width: 980px;
     margin: 0 auto;
-    height: 100%;        
-     
+    height: 100%;       
 }
 
 .main-nav-content .main-menu {
@@ -265,7 +266,6 @@ a {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    width: 99%;
     gap: 10px;
 }
 
@@ -308,7 +308,7 @@ a {
 .promo-links a {
     font-size: 17px;
     font-weight: 400;
-    color: #2997ff;
+    color: #06c;
 }
 
 
@@ -328,7 +328,7 @@ a {
 
 .promo-links a:hover .link-text {
     text-decoration: underline;
-    color: #2997ff;
+    color: #06c;
 }
 
 /*Macro*/
@@ -365,3 +365,96 @@ a {
     margin-top: 8px;
     color: #f5f5f7;
 } 
+
+/*studio*/
+
+#studio-wrapper {
+    background-image: url("images/studio.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 580px;
+    width: 100%;
+}
+
+#studio-wrapper-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#studio-wrapper #studio-wrapper-content h4 {
+    font-size: 40px;
+    color: #1d1d1f;
+    font-weight: 600;
+    line-height: 1.1;
+    text-align: center;
+    margin-top: 52px;
+}
+
+#studio-wrapper #studio-wrapper-content h5 {
+    font-size: 21px;
+    font-weight: 500;
+    margin-top: 8px;
+    color:  #1d1d1f;
+} 
+
+
+/* mac */
+#mac-wrapper {
+    background-image: url("images/mac.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 580px;
+    width: 100%;
+}
+
+#mac-wrapper-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#mac-wrapper #mac-wrapper-content h4 {
+    font-size: 40px;
+    color: #1d1d1f;
+    font-weight: 600;
+    line-height: 1.1;
+    text-align: center;
+    margin-top: 52px;
+}
+
+#mac-wrapper #mac-wrapper-content h5 {
+    font-size: 21px;
+    font-weight: 500;
+    margin-top: 8px;
+    color:  #1d1d1f;
+} 
+
+
+
+#grd-itm-5-wrapper {
+    background-image: url("images/grid-item-5.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 580px;
+    width: 100%;
+}
+
+
+#grd-itm-5-wrapper-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+
+#grd-itm-5-wrapper-content h4{
+    font-size: 40px;
+    color: #1d1d1f;
+    font-weight: 600;
+    line-height: 1.1;
+    text-align: center;
+    margin-top: 52px;
+    width: 70%;
+}
