@@ -68,19 +68,59 @@ body {
     gap: 14px;
 }
 
-/* Promotion - 1 */
+/* PROMOTION COMMON STYLING */
+
+
+.promo__h3 {
+    font-size: 28px;
+    font-weight: 400;
+    margin-top: 6px;
+    color: #1d1d1f;
+}
+
+.promo__link {
+    font-size: 21px;
+    font-weight: 400;
+    color: #06c;
+}
+
+.promo__link i {
+    font-size: 14px;
+    margin-left: 6px;
+}
+
+.promo__link:hover {
+    text-decoration: underline;
+    color: #06c;
+}
+
+
+.promo__multi-links {
+    margin-top: 14px;
+}
+
+.promo__multi-links a:nth-of-type(2) {
+    margin-left: 35px;
+}
+
+
+
+/* PROMOTION - 1 */
 .promo-1 {
     background-image: url("images/iphone-13-pro.jpg");
     height: 624px;
     width: 100%;
     background-repeat: no-repeat;
-    background-position: center center; 
+    background-position: center center;
 }
 
-.promo-1__content {
+.promo-1__content--flex {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.promo-1__content {
     padding-top: 84px;
 }
 
@@ -88,54 +128,18 @@ body {
     font-size: 56px;
     color: #1d1d1f;
     font-weight: 600;
-    line-height: 1.07143;
     margin: 0 auto;
-    
-}
-
-.promo-1__h3 {
-    font-size: 28px;
-    font-weight: 400;
-    line-height: 1.10722;
-    color: #1d1d1f;
-    margin-top: 6px;
-}
-
-.promo-1__multi-links {
-    margin-top: 14px;
-}
-
-.promo-1__links {
-    font-size: 21px;
-    font-weight: 400;
-    color: #06c;
-}
-
-.promo-1__multi-links a:nth-of-type(2) {
-    margin-left: 35px;
-}
-
-.promo-1__links i {
-    font-size: 14px;
-    margin-left: 6px;
-}
-
-.promo-1__links  span {
-    text-decoration: underline;
-    color: #06c;
 }
 
 
-
-
-/* Promotion -2 */
+/* PROMOTION - 2 */
 
 .promo-2 {
     background-image: url("images/iphone-SE.jpg");
     height: 624px;
     width: 100%;
     background-repeat: no-repeat;
-    background-position: center center; 
+    background-position: center center;
 }
 
 .promo-2__content {
@@ -155,40 +159,11 @@ body {
     font-weight: 600;
 }
 
-.promo-2__h3 {
-    font-size: 28px;
-    font-weight: 400;
-    margin-top: 6px;
-}
-
-.promo-2__links {
-    margin-top: 14px;
-}
-
-.promo-2__links a {
-    font-size: 21px;
-    font-weight: 400;
-    color: #06c;
-}
-
-.promo-2__multi-links a:nth-of-type(2) {
-    margin-left: 35px;
-}
-
-.promo-2__links i {
-    font-size: 14px;
-    margin-left: 6px;
-}
-
-.promo-2__links span {
-    text-decoration: underline;
-    color: #06c;
-}
 
 
-/* Promotion - 3 */
+/* PROMOTION - 3 */
 
-.homepage-section #ipad-air {
+.promo-3 {
     background-image: url("images/ipad-air.jpg");
     height: 624px;
     width: 100%;
@@ -197,56 +172,33 @@ body {
     position: relative;
 }
 
-#ipad-air-content {
+.promo-3__content--flex {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.promo-3__content {
     padding-top: 192px;
     position: absolute;
     margin: 0 auto;
     width: 40%;
     top: 56px;
     left: 68px;
-    
 }
 
-#ipad-air-content img {
+.promo-3__img {
     height: 53px;
     width: 193px;
 }
 
-#ipad-air-content h3 {
-    font-size: 28px;
-    font-weight: 400;
+.promo__h3--clr-wht {
     color: #f5f5f7;
-    margin-top: 6px;
+
 }
 
-#ipad-air-content .links {
-    margin-top: 14px;
-}
 
-#ipad-air-content .links a {
-    font-size: 21px;
-    font-weight: 400;
-    color: #06c;
-}
-
-#ipad-air-content .links a:nth-of-type(2) {
-    margin-left: 35px;
-}
-
-#ipad-air-content .links i {
-    font-size: 14px;
-    margin-left: 6px;
-}
-
-#ipad-air-content .links a:hover .link-text {
-    text-decoration: underline;
-    color: #06c;
-}
-
-/*section 2 */
+/* GRID - 2 */
 .homepage-section-promo {
     margin: 10px;
 }
