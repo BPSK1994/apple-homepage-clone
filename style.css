@@ -32,6 +32,7 @@ body {
     height: 100%;
 }
 
+
 .nav__list--flex {
     display: flex;
     flex-direction: row;
@@ -49,7 +50,7 @@ body {
 }
 
 .nav__link span {
-    font-size: 11px;
+    font-size: 12px;
     color: #f5f5f7;
 }
 
@@ -58,17 +59,17 @@ body {
 }
 
 
-/* Section 1 */
+/* GRID - 1 */
 
-.homepage-section {
+.promo--grid {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     gap: 14px;
 }
 
-/* Section 1 (iphone-13-pro) */
-.homepage-section #iphone-13-pro {
+/* Promotion - 1 */
+.promo-1 {
     background-image: url("images/iphone-13-pro.jpg");
     height: 624px;
     width: 100%;
@@ -76,14 +77,14 @@ body {
     background-position: center center; 
 }
 
-#iphone-13-pro-content {
+.promo-1__content {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 84px;
 }
 
-#iphone-13-pro-content h2 {
+.promo-1__h2 {
     font-size: 56px;
     color: #1d1d1f;
     font-weight: 600;
@@ -92,7 +93,7 @@ body {
     
 }
 
-#iphone-13-pro-content h3 {
+.promo-1__h3 {
     font-size: 28px;
     font-weight: 400;
     line-height: 1.10722;
@@ -100,33 +101,36 @@ body {
     margin-top: 6px;
 }
 
-#iphone-13-pro-content .links {
+.promo-1__multi-links {
     margin-top: 14px;
 }
 
-#iphone-13-pro-content .links a {
+.promo-1__links {
     font-size: 21px;
     font-weight: 400;
     color: #06c;
 }
 
-#iphone-13-pro-content .links a:nth-of-type(2) {
+.promo-1__multi-links a:nth-of-type(2) {
     margin-left: 35px;
 }
 
-#iphone-13-pro-content .links i {
+.promo-1__links i {
     font-size: 14px;
     margin-left: 6px;
 }
 
-#iphone-13-pro-content .links a:hover .link-text {
+.promo-1__links  span {
     text-decoration: underline;
     color: #06c;
 }
 
-/* Section 1 (iphone-SE) */
 
-.homepage-section #iphone-SE {
+
+
+/* Promotion -2 */
+
+.promo-2 {
     background-image: url("images/iphone-SE.jpg");
     height: 624px;
     width: 100%;
@@ -134,55 +138,55 @@ body {
     background-position: center center; 
 }
 
-#iphone-SE-content {
+.promo-2__content {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 84px;
 }
 
-#iphone-SE-content img {
+.promo-2__img {
     height: 55px;
     width: 221px;
 }
 
-#iphone-SE-content:first-child {
+.promo-2__h4 {
     font-size: 21px;
     font-weight: 600;
 }
 
-#iphone-SE-content h3 {
+.promo-2__h3 {
     font-size: 28px;
     font-weight: 400;
     margin-top: 6px;
 }
 
-#iphone-SE-content .links {
+.promo-2__links {
     margin-top: 14px;
 }
 
-#iphone-SE-content .links a {
+.promo-2__links a {
     font-size: 21px;
     font-weight: 400;
     color: #06c;
 }
 
-#iphone-SE-content .links a:nth-of-type(2) {
+.promo-2__multi-links a:nth-of-type(2) {
     margin-left: 35px;
 }
 
-#iphone-SE-content .links i {
+.promo-2__links i {
     font-size: 14px;
     margin-left: 6px;
 }
 
-#iphone-SE-content .links a:hover .link-text {
+.promo-2__links span {
     text-decoration: underline;
     color: #06c;
 }
 
 
-/* Section 1 (ipad air) */
+/* Promotion - 3 */
 
 .homepage-section #ipad-air {
     background-image: url("images/ipad-air.jpg");
