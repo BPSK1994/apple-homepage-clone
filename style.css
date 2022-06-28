@@ -3,73 +3,58 @@
     margin: 0px;
     padding: 0px;
     list-style: none;
+    text-decoration: none;
 }
 
 body {
     font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 
 }
-a {
-    text-decoration: none;
-    display: inline-block;
-}
 
-/* Navigation */
 
-.main-nav {
-    background: rgba(0, 0, 0, 0.92);
+/* NAVIGATION */
+
+.nav {
+    background: #000;
     height: 48px;
-    overflow: hidden;
     position: fixed;
     width: 100%;
     z-index: 1;
 }
 
-.main-nav-content {
+.nav__content {
     max-width: 980px;
     margin: 0 auto;
     height: 100%;       
 }
 
-.main-nav-content .main-menu {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    height: 100%;  
-    position: relative;
+.nav__list {
+    height: 100%;
 }
 
-.main-nav-content .main-menu li {
+.nav__list--flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: center;   
+}
+
+.nav__link {
     padding: 0px 8px;
     opacity: 0.7;
 }
 
+.nav__link:hover {
+    opacity: 1;
+}
 
-.main-nav-content .main-menu .nav-link-text {
-    font-size: 12px;
+.nav__link span {
+    font-size: 11px;
     color: #f5f5f7;
 }
 
-.main-menu #nav-link-apple-logo {
-    
-    position: absolute;
-    top: 3px;
-    left: 0px;
-}
-
-.main-menu #nav-link-bag-logo {
-    position: absolute;
-    top: 5px;
-}
-
-.main-menu #nav-link-search-logo  {
-    position: absolute;
-    top: 5px;
-}
-
-.main-nav-content .main-menu li:hover {
-    opacity: 1;
+.nav__brand--clr-wht {
+    color: #fff;
 }
 
 
@@ -457,4 +442,39 @@ a {
     text-align: center;
     margin-top: 52px;
     width: 70%;
+}
+
+#grd-itm-6-wrapper {
+    background-image: url("images/grid-item-6.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 580px;
+    width: 100%;
+}
+
+#grd-itm-6-wrapper-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+#grd-itm-6-wrapper-content #slw-horses-top {
+    margin-top: 58px;
+}
+
+#grd-itm-6-wrapper-content h6 {
+    font-size: 21px;
+    font-weight: 500;
+    margin-top: 8px;
+    color:  #f5f5f7;
+}
+
+#grd-itm-6-wrapper-content #slw-horses-btm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 38px;
 }
