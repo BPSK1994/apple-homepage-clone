@@ -550,8 +550,10 @@ body {
     color: #424245;
 }
 
-.footer__link-border {
+.footer__link-none {
     border: none;
+    padding: 0px;
+    margin: 0px;
 }
 
 .footer__country {
@@ -559,6 +561,7 @@ body {
     color: #424245;
     margin-top: 5px;
     cursor: pointer;
+    margin-left: 36px;
 }
 
 .footer__country:hover {
